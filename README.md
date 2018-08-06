@@ -104,7 +104,7 @@ For most "standard" use cases (node v4.x on mac, linux, windows on a x86 or x64 
 npm install node-hid
 ```
 
-## LIB (deb)
+### LIB (deb)
 ```
 apt-get install libudev-dev libusb-1.0-0-dev
 ```
