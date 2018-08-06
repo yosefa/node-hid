@@ -104,6 +104,11 @@ For most "standard" use cases (node v4.x on mac, linux, windows on a x86 or x64 
 npm install node-hid
 ```
 
+## LIB (deb)
+```
+apt-get install libudev-dev libusb-1.0-0-dev
+```
+
 ### Installation Special Cases
 
 We are using [prebuild](https://github.com/mafintosh/prebuild) to compile and post binaries of the library for most common use cases (linux, mac, windows on standard processor platforms). If you are on a special case, `node-hid` will work, but it will compile the binary when you install.
